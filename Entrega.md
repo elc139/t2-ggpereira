@@ -37,4 +37,11 @@ Na figura abaixo, o resultado da soma das multiplicações realizadas por cada t
   <img src="https://github.com/elc139/t2-ggpereira/blob/master/img/questao1/aglomeracao_1.png"> 
  </p>
 
+<h4>Mapeamento</h4>
+
+Distribui as tarefas para as n threads, passando o índice(i) que é usado como offset para distribuir a carga. 
+
+<p align="center">
+  <img src="https://github.com/elc139/t2-ggpereira/blob/master/img/questao1/mapeamento_1.png"> 
+ </p>
 
