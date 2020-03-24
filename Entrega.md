@@ -46,4 +46,25 @@ Distribui as tarefas para as n threads, passando o índice(i) que é usado como 
  </p>
 
 **2. Considerando o tempo (em microssegundos) mostrado na saída do programa, qual foi a aceleração (speedup) com o uso de threads?**
+
 O Speedup foi de 1,95.
+
+**3. A aceleração  se sustenta para outros tamanhos de vetores, números de threads e repetições? Para responder a essa questão, você terá que realizar diversas execuções, variando o tamanho do problema (tamanho dos vetores e número de repetições) e o número de threads (1, 2, 4, 8..., dependendo do número de núcleos). Cada caso deve ser executado várias vezes, para depois calcular-se um tempo de processamento médio para cada caso. Atenção aos fatores que podem interferir na confiabilidade da medição: uso compartilhado do computador, tempos muito pequenos, etc.**
+
+As tabelas abaixo mostram que há pouca variação no valor do speedup para os tamanhos de vetores e repetições e na situação em que se aumenta o número de threads há um aumento proporcional do speedup.
+
+<p align="center">
+  <img src="https://github.com/elc139/t2-ggpereira/blob/master/img/questao3/tabela1_threads.PNG"> 
+</p>
+
+<p align="center">
+  <img src="https://github.com/elc139/t2-ggpereira/blob/master/img/questao3/tabela2_threads.PNG">
+</p>
+
+<p align="center">
+  <img src="https://github.com/elc139/t2-ggpereira/blob/master/img/questao3/tabela3_threads.PNG">
+</p>
+
+<p align="center">
+  <img src="https://github.com/elc139/t2-ggpereira/blob/master/img/questao3/tabela4_threads.PNG">
+</p>
