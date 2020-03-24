@@ -45,3 +45,5 @@ Distribui as tarefas para as n threads, passando o índice(i) que é usado como 
   <img src="https://github.com/elc139/t2-ggpereira/blob/master/img/questao1/mapeamento_1.png"> 
  </p>
 
+**2. Considerando o tempo (em microssegundos) mostrado na saída do programa, qual foi a aceleração (speedup) com o uso de threads?**
+O Speedup foi de 1,95.
