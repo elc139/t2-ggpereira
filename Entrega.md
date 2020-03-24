@@ -68,3 +68,14 @@ As tabelas abaixo mostram que há pouca variação no valor do speedup para os t
 <p align="center">
   <img src="https://github.com/elc139/t2-ggpereira/blob/master/img/questao3/tabela4_threads.PNG">
 </p>
+
+**4. Elabore um gráfico/tabela de aceleração a partir dos dados obtidos no exercício anterior.**
+
+<p align="center">
+  <img src="https://github.com/elc139/t2-ggpereira/blob/master/img/questao4/speedup_grafico.PNG">
+</p>
+
+**5. Explique as diferenças entre [pthreads_dotprod.c](pthreads_dotprod/pthreads_dotprod.c) e [pthreads_dotprod2.c](pthreads_dotprod/pthreads_dotprod2.c). Com as linhas removidas, o programa está correto?** 
+
+O programa pthreads dotprod.c usa um semáforo para a sincronização da escrita na variável dotdata.c, já o programa dotprod2.c omite esse semáforo tornando o programa incorreto pois nessa situação existe condição de corrida, todas as threads escrevem em dotdata.c e não há sincronização, podendo a produzir um resultado incorreto.
+
