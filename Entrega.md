@@ -79,3 +79,31 @@ As tabelas abaixo mostram que há pouca variação no valor do speedup para os t
 
 O programa pthreads dotprod.c usa um semáforo para a sincronização da escrita na variável dotdata.c, já o programa dotprod2.c omite esse semáforo tornando o programa incorreto pois nessa situação existe condição de corrida, todas as threads escrevem em dotdata.c e não há sincronização, podendo a produzir um resultado incorreto.
 
+## Parte II: OpenMP
+**1. Implemente um programa equivalente a [pthreads_dotprod.c](pthreads_dotprod/pthreads_dotprod.c) usando OpenMP.**
+
+[Código da Implementação: pthreads_dotprod.c alterado para OpenMP](https://github.com/elc139/t2-ggpereira/blob/master/openmp/omp_dotprod.c)
+
+**2. Avalie o desempenho do programa em OpenMP, usando os mesmos dados/argumentos do programa com threads POSIX.**
+
+<p align="center">
+  Segue abaixo as tabelas com desempenho utilizando OpenMP(Mesmos argumentos utilizados na Parte 1 - Questão 3)
+</p>
+
+<p align="center">
+   <img src="https://github.com/elc139/t2-ggpereira/blob/master/img/openmp_questao2/tabela_1.PNG">
+</p>
+
+<p align="center">
+   <img src="https://github.com/elc139/t2-ggpereira/blob/master/img/openmp_questao2/tabela_2.PNG">
+</p>
+
+<p align="center">
+   <img src="https://github.com/elc139/t2-ggpereira/blob/master/img/openmp_questao2/tabela_3.PNG">
+</p>
+
+<p align="center">
+   <img src="https://github.com/elc139/t2-ggpereira/blob/master/img/openmp_questao2/tabela_4.PNG">
+</p>
+
+
