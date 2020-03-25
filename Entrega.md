@@ -1,5 +1,9 @@
 # T2: Programação Paralela Multithread 
 
+Nome: Gabriel Gomes Pereira
+
+Disciplina: Programação Paralela
+
 ## Parte I: Questões Pthreads
 Especificações do computador utilizado -> Memória RAM: 8Gb, Processador: Ryzen 5 1400 3.2 Ghz 4 núcleos e 8 threads.
 
