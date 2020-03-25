@@ -77,12 +77,15 @@ int main(int argc, char **argv){
     dotdata.wsize = wsize;
     dotdata.repeat = repeat;
 
-    start_time = wtime();
     omp_set_num_threads(nthreads);
+
+    start_time = wtime();
+    #pragma omp parallel 
+    {
+        dotprod_worker();
+    }
     end_time = wtime();
 
-    #pragma omp parallel 
-    dotprod_worker();
 
     printf("%f\n", dotdata.c);
     printf("%d thread(s), %ld usec\n", nthreads, (long) (end_time - start_time));
