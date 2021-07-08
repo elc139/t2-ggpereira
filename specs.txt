@@ -1,0 +1,3 @@
+Processador: Ryzen 5 1400 4 núcleos 3.2 ghz
+Memória RAM: 8 GB
+SO: WSL - Subsistema Windows para Linux - Ubuntu 18.04 LTS
